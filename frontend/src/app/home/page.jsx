@@ -5,8 +5,7 @@ import Table from "@/components/views/Table";
 // import { useAppSelector } from "@/redux/hooks";
 
 const AppHome = () => {
-  <Table />;
-  <h2>hola</h2>;
+  return <Table />;
   // const activeSection = useAppSelector(
   //   (state) => state?.activeSection?.activeSection || "exception"
   // );
