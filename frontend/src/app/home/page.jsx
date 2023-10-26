@@ -1,7 +1,7 @@
 "use client";
 import AddTransaction from "@/components/views/AddTransaction";
 import CreditCard from "@/components/views/CreditCard";
-import Table from "@/components/views/Table";
+// import Table from "@/components/views/Table";
 import { useAppSelector } from "@/redux/hooks";
 
 const AppHome = () => {
