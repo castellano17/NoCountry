@@ -3,11 +3,11 @@ import { Button, Input } from "@material-tailwind/react";
 import { Select, Option } from "@material-tailwind/react";
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import TagSVG from "../../assets/shared/Tags.jsx";
-import DescriptionSVG from "../../assets/shared/Description.jsx";
-import DateSVG from "../../assets/shared/Date.jsx";
-import CashSVG from "../../assets/shared/Cash.jsx";
-import RepeatSVG from "../../assets/shared/Repeat.jsx";
+import TagSVG from "@/assets/shared/Tags.jsx";
+import DescriptionSVG from "@/assets/shared/Description.jsx";
+import DateSVG from "@/assets/shared/Date.jsx";
+import CashSVG from "@/assets/shared/Cash.jsx";
+import RepeatSVG from "@/assets/shared/Repeat.jsx";
 
 const AddTransaction = () => {
   const [selectedButton, setSelectedButton] = useState("GASTOS");
